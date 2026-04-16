@@ -15,13 +15,14 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "make": "^0.8.1",
-    "nmake": "^1.0.0"
+    "nmake": "^1.0.0",
+    "readline-sync": "^1.4.10"
   }
 }
