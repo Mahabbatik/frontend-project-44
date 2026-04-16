@@ -24,5 +24,11 @@
     "make": "^0.8.1",
     "nmake": "^1.0.0",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0"
   }
 }
