@@ -1,11 +1,11 @@
 import stylistic from '@stylistic/eslint-plugin';
 import js from '@eslint/js';
-import globals from 'globals'; 
+import globals from 'globals';
 
 export default [
   js.configs.recommended,
   {
-    languageOptions: { 
+    languageOptions: {
       globals: {
         ...globals.node,
       },
@@ -16,8 +16,13 @@ export default [
     rules: {
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
-      '@stylistic/semi': ['error', 'always'],
-      'no-console': 'off', 
+      '@stylistic/semi': ['error', 'never'],
+      '@stylistic/eol-last': ['error', 'always'],
+      '@stylistic/no-multiple-empty-lines': ['error', { max: 1 }],
+      '@stylistic/no-trailing-spaces': 'error',
+      '@stylistic/max-statements-per-line': ['error', { max: 1 }],
+      '@stylistic/padded-blocks': ['error', 'never'],
+      'no-console': 'off',
     },
   },
 ];
