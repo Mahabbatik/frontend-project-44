@@ -2,6 +2,8 @@
 
 ### Hexlet tests and linter status:
 
+[![asciicast](https://asciinema.org)](https://asciinema.org/a/p0nn5kU67Vd3aUcC)
+
 [![asciicast](https://asciinema.org)](https://asciinema.org/a/UpsGMF9D3NLB7yRA)
 
 [![asciicast](https://asciinema.org)](https://asciinema.org/a/0kWBMdKIuNIPfsrn)
