@@ -4,11 +4,8 @@ const description = 'What number is missing in the progression?';
 
 const getRoundData = () => {
   const length = Math.floor(Math.random() * 6) + 5;
-  
   const start = Math.floor(Math.random() * 20) + 1;
-  
   const step = Math.floor(Math.random() * 10) + 1;
-  
   const hiddenIndex = Math.floor(Math.random() * length);
   
   const progression = [];
@@ -17,9 +14,7 @@ const getRoundData = () => {
   }
   
   const correctAnswer = String(progression[hiddenIndex]);
-  
   progression[hiddenIndex] = '..';
-  
   const question = progression.join(' ');
   
   return [question, correctAnswer];
