@@ -14,8 +14,8 @@ const getGCD = (a, b) => {
 }
 
 const getRoundData = () => {
-  const num1 = Math.floor(Math.random() * 100) + 1 //
-  const num2 = Math.floor(Math.random() * 100) + 1 //
+  const num1 = Math.floor(Math.random() * 100) + 1 // eslint-disable-line
+  const num2 = Math.floor(Math.random() * 100) + 1 // eslint-disable-line
 
   const question = `${num1} ${num2}`
   const correctAnswer = String(getGCD(num1, num2))

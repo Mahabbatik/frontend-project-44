@@ -17,7 +17,7 @@ const isPrime = (num) => {
 }
 
 const getRoundData = () => {
-  const number = Math.floor(Math.random() * 100) + 1
+  const number = Math.floor(Math.random() * 100) + 1 // eslint-disable-line
 
   const question = String(number)
   const correctAnswer = isPrime(number) ? 'yes' : 'no'
